@@ -1,0 +1,9 @@
+
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: DevOps_Learning/Project1-Docker/NodeJS/Dockerfile
+    ports:
+      - "3000:3000"
